@@ -1,0 +1,29 @@
+{
+  "name": "AUSC Girls Trials 2027",
+  "short_name": "AUSC Girls",
+  "description": "Trial lists for AUSC girls' coaches: attendance, bibs, notes and offers.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#836BFF",
+  "theme_color": "#836BFF",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
