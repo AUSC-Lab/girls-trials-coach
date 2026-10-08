@@ -1,6 +1,6 @@
 // Keeps the app screens available on patchy pitch-side signal.
 // Same-site files: network first, cached copy if offline. Calls to Google (the data) always go to the network.
-const CACHE = "ausc-girls-v1";
+const CACHE = "ausc-girls-v2";
 const SHELL = ["./", "./index.html", "./config.js", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png", "./favicon.png"];
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
